@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+.wrapper{
+    height: 900px;
+    width: 700px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: auto;
+}
+.wrapper .header{
+    height: 90px;
+    border: rebeccapurple 1px solid;
+}
+.wrapper .content{
+    display: flex;
+    height: 810px;
+    justify-content: space-between;
+}
+.wrapper .content .map{
+    width: 450px;
+    align-items: stretch;
+    border: 1px solid green;
+    position: relative;
+}
+.wrapper .content .right{
+    width: 250px;
+    align-items: stretch;
+    border: 1px solid green;
+}
+.wrapper .content .right .next-shape  p{
+    text-align: center;
+}
+.wrapper .content .right .next-shape #shape{
+    height: 250px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    align-content: center;
+	justify-content:center;
+}
+.square{
+    position: absolute;
+    box-sizing: border-box;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
